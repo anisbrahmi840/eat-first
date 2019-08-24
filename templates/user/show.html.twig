@@ -1,0 +1,48 @@
+{% extends 'baseUser.html.twig' %}
+
+{% block title %}User{% endblock %}
+
+{% block body %}
+    <h1>User</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>LastName</th>
+                <td>{{ user.lastName }}</td>
+            </tr>
+            <tr>
+                <th>FirtName</th>
+                <td>{{ user.firtName }}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{ user.email }}</td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td>{{ user.phone }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    {%  if reservations is not empty %}
+    <h1>Reservations</h1>
+    <table class="table">
+        <tbody>
+        {%  for reservation in reservations %}
+        <tr>
+            <th><a href="{{ path('reservation_edit', {id: reservation.id}) }}">Reservation at </a></th>
+            <td>{{ reservation.resAt|date('d-m-Y') }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {%  endif %}
+    <a href="{{ path('app_logout') }}" class="btn btn-outline-danger btn-lg site-animate">Logout</a> <br> <br>
+    <a href="{{ path('user_index') }}">back to list</a>
+
+    <a href="{{ path('user_edit', {'id': user.id}) }}">edit</a>
+
+    {{ include('user/_delete_form.html.twig') }}
+{% endblock %}

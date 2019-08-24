@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+{% block body %}
+
+      <center>  <h1 class="text-center">Reservation {{ reservation.id }}</h1> </center>
+    <br>
+    <br>
+
+
+    <table class="table" style="width:100%">
+        <tbody>
+        <tr>
+            <th>Firstname</th>
+            <td> <cenetr>{{ reservation.user.getlastName }}</cenetr></td>
+        </tr>
+        <tr>
+            <th>Firstname</th>
+            <td>{{ reservation.user.getfirtName }}</td>
+        </tr>
+            <tr>
+                <th>nomber people</th>
+                <td>{{ reservation.nbUser }}</td>
+            </tr>
+            <tr>
+                <th>ResAt</th>
+                <td>{{ reservation.resAt ? reservation.resAt|date('Y-m-d H') : '' }}</td>
+            </tr>
+            <tr>
+                <th>createdAt</th>
+                <td>{{ reservation.createdAt ? reservation.createdAt|date('Y-m-d H') : '' }}</td>
+            </tr>
+            <tr>
+                <th>Message</th>
+                <td>{{ reservation.message }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+{% endblock %}
+
+
+
+
+
+</body>
+</html>

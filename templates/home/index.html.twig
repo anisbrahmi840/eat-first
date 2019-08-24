@@ -5,7 +5,7 @@
 {% block body %}
     <nav class="navbar navbar-expand-lg navbar-dark site_navbar bg-dark site-navbar-light" id="site-navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html">EatWell</a>
+            <a class="navbar-brand" href="{{ path('home') }}">Eat First</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
             </button>
@@ -19,6 +19,12 @@
                     <li class="nav-item"><a href="#section-news" class="nav-link">News</a></li>
                     <li class="nav-item"><a href="#section-gallery" class="nav-link">Gallery</a></li>
                     <li class="nav-item"><a href="#section-contact" class="nav-link">Contact</a></li>
+                    {% if not is_granted('IS_AUTHENTICATED_FULLY') %}
+                    <li class="nav-item"><a href="{{ path('app_login') }}" class="btn btn-light mt-3">Sign In</a></li>
+                    <li class="nav-item"><a href="{{ path('user_new') }}" class="btn btn-info mt-3 ml-1">Sign Up</a></li>
+                   {% else %}
+                       <li class="nav-item"><a href="{{ path('user_show', {id: app.user.id}) }}" class="btn btn-success mt-3">Profil</a></li>
+                    {% endif %}
                 </ul>
             </div>
         </div>
@@ -662,65 +668,28 @@
                                 <small>CLOSE </small><span aria-hidden="true">&times;</span>
                             </button>
                             <h1 class="mb-4">Reserve A Table</h1>
-                            <form action="#" method="post">
+                                {{ form_start(form) }}
                                 <div class="row">
                                     <div class="col-md-6 form-group">
-                                        <label for="m_fname">First Name</label>
-                                        <input type="text" class="form-control" id="m_fname">
+                                    {{ form_row(form.nbUser, {'label': 'How Many People', 'attr': {'class': 'form-control'}}) }}
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <label for="m_lname">Last Name</label>
-                                        <input type="text" class="form-control" id="m_lname">
+                                    {{ form_row(form.resAt, {'label': 'Date', 'attr': {'class': 'form-control' , 'id': 'm_date'}}) }}
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-12 form-group">
-                                        <label for="m_email">Email</label>
-                                        <input type="email" class="form-control" id="m_email">
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                    {{ form_row(form.message, {'label': 'Message', 'attr': {'class': 'form-control' , 'id': 'm_message', 'rows': '6'}}) }}
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 form-group">
-                                        <label for="m_people">How Many People</label>
-                                        <select name="" id="m_people" class="form-control">
-                                            <option value="1">1 People</option>
-                                            <option value="2">2 People</option>
-                                            <option value="3">3 People</option>
-                                            <option value="4+">4+ People</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-6 form-group">
-                                        <label for="m_phone">Phone</label>
-                                        <input type="text" class="form-control" id="m_phone">
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-6 form-group">
-                                        <label for="m_date">Date</label>
-                                        <input type="text" class="form-control" id="m_date">
-                                    </div>
-                                    <div class="col-md-6 form-group">
-                                        <label for="m_time">Time</label>
-                                        <input type="text" class="form-control" id="m_time">
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-12 form-group">
-                                        <label for="m_message">Message</label>
-                                        <textarea class="form-control" id="m_message" cols="30" rows="7"></textarea>
-                                    </div>
-                                </div>
+                                    {{ form_widget(form) }}
 
                                 <div class="row">
                                     <div class="col-md-12 form-group">
                                         <input type="submit" class="btn btn-primary btn-lg btn-block" value="Reserve Now">
                                     </div>
                                 </div>
-
-                            </form>
-                        </div>
+                            {{ form_end(form) }}
                     </div>
 
                 </div>

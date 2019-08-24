@@ -41,6 +41,12 @@ h1, h2, h3, h4, h5,
   right: 0;
   z-index: 3;
 }
+.site-navbar-light-mod {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
 
 @media screen and (max-width: 991px) {
   .site-navbar-light {
