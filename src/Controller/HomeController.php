@@ -28,7 +28,9 @@ class HomeController extends AbstractController
             $entityManager->persist($reservation);
             $entityManager->flush();
 
-            return $this->redirectToRoute('reservation_index');
+            return $this->redirectToRoute('reservation_show', [
+                'id' => $reservation->getId(),
+            ]);
         }
 
         return $this->render('home/index.html.twig', [

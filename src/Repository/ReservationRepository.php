@@ -32,6 +32,22 @@ class ReservationRepository extends ServiceEntityRepository
             ;
     }
 
+    public function findOneByIdUser($idUser, $idRes)
+    {
+        return $this->createQueryBuilder('r')
+            // p.category refers to the "category" property on product
+            ->innerJoin('r.user', 'u')
+            // selects all the category data to avoid the query
+            ->addSelect('u')
+            ->andWhere('u.id = :idUser')
+            ->addSelect('u')
+            ->andWhere('r.id = :idRes')
+            ->setParameter('idUser', $idUser)
+            ->setParameter('idRes', $idRes)
+
+            ->getQuery()
+            ->getOneOrNullResult();
+    }
     // /**
     //  * @return Reservation[] Returns an array of Reservation objects
     //  */

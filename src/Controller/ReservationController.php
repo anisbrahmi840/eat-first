@@ -45,7 +45,9 @@ class ReservationController extends AbstractController
             $entityManager->persist($reservation);
             $entityManager->flush();
 
-            return $this->redirectToRoute('reservation_index');
+            return $this->redirectToRoute('reservation_show', [
+                'reservation' => $reservation,
+            ]);
         }
 
         return $this->render('home/index.html.twig', [
@@ -57,15 +59,22 @@ class ReservationController extends AbstractController
     /**
      * @Route("/{id}", name="reservation_show", methods={"GET"})
      */
-    public function show(Reservation $reservation): Response
+    public function show(ReservationRepository $reservationRepository, Reservation $reservation): Response
     {
+
+        $reservation = $reservationRepository->findOneByIdUser($this->getUser()->getId(), $reservation->getId());
+
+        if(empty($reservation) ){
+            return $this->redirectToRoute('home');
+        }
         // Configure Dompdf according to your needs
         $pdfOptions = new Options();
         $pdfOptions->set('defaultFont', 'Arial');
 
         // Instantiate Dompdf with our options
         $dompdf = new Dompdf($pdfOptions);
-
+        dump($reservation);
+        dump($this->getUser()->getId());
         // Retrieve the HTML generated in our twig file
         $html = $this->renderView('reservation/show.html.twig', [
             'reservation' => $reservation,
@@ -89,8 +98,9 @@ class ReservationController extends AbstractController
     /**
      * @Route("/{id}/edit", name="reservation_edit", methods={"GET","POST"})
      */
-    public function edit(Request $request, Reservation $reservation): Response
+    public function edit(Request $request, Reservation $reservation , ReservationRepository $reservationRepository): Response
     {
+        $reservation = $reservationRepository->findOneByIdUser($this->getUser()->getId(), $reservation->getId());
         $form = $this->createForm(ReservationType::class, $reservation);
         $form->handleRequest($request);
 
@@ -117,6 +127,8 @@ class ReservationController extends AbstractController
             $entityManager->flush();
         }
 
-        return $this->redirectToRoute('reservation_index');
+        return $this->redirectToRoute('user_show',[
+            'id' => $this->getUser()->getId(),
+        ]);
     }
 }
