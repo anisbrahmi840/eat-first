@@ -6,6 +6,7 @@ use App\Entity\Reservation;
 use App\Entity\User;
 use App\Form\ReservationType;
 use App\Repository\ReservationRepository;
+use Doctrine\ORM\EntityManager;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -62,7 +63,12 @@ class ReservationController extends AbstractController
     public function show(ReservationRepository $reservationRepository, Reservation $reservation): Response
     {
 
-        $reservation = $reservationRepository->findOneByIdUser($this->getUser()->getId(), $reservation->getId());
+        if($this->isGranted('ROLE_SUPER_ADMIN')){
+            $reservation = $reservationRepository->findOneBy(['id' => $reservation->getId()]);
+        }else{
+            $reservation = $reservationRepository->findOneByIdUser($this->getUser()->getId(), $reservation->getId());
+        }
+
 
         if(empty($reservation) ){
             return $this->redirectToRoute('home');
@@ -73,8 +79,6 @@ class ReservationController extends AbstractController
 
         // Instantiate Dompdf with our options
         $dompdf = new Dompdf($pdfOptions);
-        dump($reservation);
-        dump($this->getUser()->getId());
         // Retrieve the HTML generated in our twig file
         $html = $this->renderView('reservation/show.html.twig', [
             'reservation' => $reservation,

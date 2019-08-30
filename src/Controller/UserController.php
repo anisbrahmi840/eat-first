@@ -57,7 +57,6 @@ class UserController extends AbstractController
      */
     public function show(User $user, ReservationRepository $reservationRepository): Response
     {
-
         $userIslogin = $this->getUser();
         if($userIslogin->getId() != $user->getId()){
             return $this->redirectToRoute('home');
