@@ -34,4 +34,16 @@ class AdminController extends AbstractController
             'controller_name' => 'AdminController',
         ]);
     }
+
+
+    /**
+     * @Route("/users", name="admin_showUsers", methods={"GET"})
+     */
+    public function showUsers(): Response
+    {
+        $userRepository = $this->getDoctrine()->getRepository(User::class);
+        return $this->render('admin/showUsers.html.twig', [
+            'users' => $userRepository->findAll(),
+        ]);
+    }
 }

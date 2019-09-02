@@ -102,7 +102,7 @@ class UserController extends AbstractController
     }
 
     /**
-     * @Route("/{id}", name="user_delete", methods={"DELETE"})
+     * @Route("/delete/{id}", name="user_delete", methods={"DELETE"})
      */
     public function delete(Request $request, User $user): Response
     {
@@ -110,6 +110,11 @@ class UserController extends AbstractController
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->remove($user);
             $entityManager->flush();
+        }
+
+        // test is super admin
+        if($this->isGranted(['ROLE_SUPER_ADMIN'])){
+            return $this->redirectToRoute('admin_showUsers');
         }
 
         return $this->redirectToRoute('user_index');
