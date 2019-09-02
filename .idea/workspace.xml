@@ -2,301 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64a70c39-689c-40d2-abc9-139e4a7c78cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/extra-libs/sparkline/sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/custom-select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/free-demo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/logo-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/logo-light-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/logo-light-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/logo-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/nice-lite-lp-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/nice-pro-lp-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/pro-demo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/1-old.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/agent.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/agent2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/d1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/d2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/d4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/d5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/images/users/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/chartist/dist/chartist.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/chartist/dist/chartist.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/jquery/dist/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/jquery/dist/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/ender.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ar-dz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ar-kw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ar-ly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ar-ma.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ar-sa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ar-tn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/be.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/bm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/bo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/cv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/de-at.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/dv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/en-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/en-ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/en-il.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/en-nz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/es-do.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/es-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/fr-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/fy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/gd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/gom-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/gu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/hy-am.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/jv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/kn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/lb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/lo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/mi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/mr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ms-my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/mt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/nl-be.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/nn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/pa-in.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/sd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/se.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/sr-cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/te.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/tet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/tg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/tl-ph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/tlh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/tzl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/tzm-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/tzm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ug-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/ur.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/uz-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/uz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/x-pseudo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/yo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/zh-hk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/locale/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/min/locales.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/min/moment-with-locales.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/min/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/moment/package.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/popper.js/dist/esm/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/popper.js/dist/esm/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/popper.js/dist/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/popper.js/dist/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/popper.js/dist/umd/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/assets/libs/popper.js/dist/umd/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/css/material-design-iconic-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/css/material-design-iconic-font.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/themify-icons/fonts/themify.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/themify-icons/fonts/themify.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/themify-icons/fonts/themify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/themify-icons/fonts/themify.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/themify-icons/ie7/ie7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/themify-icons/ie7/ie7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/themify-icons/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/themify-icons/themify-icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/css/weather-icons-core.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/css/weather-icons-variables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/css/weather-icons-wind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/css/weather-icons-wind.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/css/weather-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/css/weather-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/fonts/weathericons-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/fonts/weathericons-regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/fonts/weathericons-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/fonts/weathericons-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/fonts/weathericons-regular-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/css/variables-beaufort.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/css/variables-day.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/css/variables-direction.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/css/variables-misc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/css/variables-moon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/css/variables-neutral.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/css/variables-night.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/css/variables-time.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/css/variables-wind-names.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-classes/classes-beaufort.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-classes/classes-day.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-classes/classes-direction.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-classes/classes-misc.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-classes/classes-moon-aliases.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-classes/classes-moon.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-classes/classes-neutral.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-classes/classes-night.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-classes/classes-time.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-classes/classes-wind-aliases.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-classes/classes-wind-degrees.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-classes/classes-wind.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-variables/variables-beaufort.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-variables/variables-day.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-variables/variables-direction.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-variables/variables-misc.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-variables/variables-moon.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-variables/variables-neutral.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-variables/variables-night.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-variables/variables-time.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/icon-variables/variables-wind-names.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/mappings/wi-forecast-io.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/mappings/wi-owm.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/mappings/wi-wmo4680.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/mappings/wi-yahoo.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/weather-icons-classes.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/weather-icons-core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/weather-icons-variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/weather-icons-wind.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/weather-icons-wind.min.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/weather-icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/less/weather-icons.min.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-classes/classes-beaufort.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-classes/classes-day.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-classes/classes-direction.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-classes/classes-misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-classes/classes-moon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-classes/classes-neutral.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-classes/classes-night.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-classes/classes-time.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-classes/classes-wind-aliases.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-classes/classes-wind-degrees.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-classes/classes-wind.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-variables/variables-beaufort.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-variables/variables-day.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-variables/variables-direction.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-variables/variables-misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-variables/variables-moon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-variables/variables-neutral.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-variables/variables-night.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-variables/variables-time.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/icon-variables/variables-wind-names.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/mappings/wi-forecast-io.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/mappings/wi-owm.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/mappings/wi-wmo4680.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/mappings/wi-yahoo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/weather-icons-classes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/weather-icons-core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/weather-icons-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/weather-icons-wind.min.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/weather-icons-wind.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/weather-icons.min.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/icons/weather-icons/sass/weather-icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/js/custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/js/pages/dashboards/dashboard1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/js/sidebarmenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/dist/js/waves.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/baseAdmin.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/eat-first.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eat-first.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ReservationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ReservationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/UserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/baseAdmin.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/baseAdmin.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/baseUser.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/baseUser.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -306,13 +22,14 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <executablePath>composer</executablePath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="259">
               <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
               <folding>
                 <element signature="e#34#61#0#PHP" expanded="true" />
@@ -321,11 +38,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="83" column="82" selection-start-line="83" selection-start-column="82" selection-end-line="83" selection-end-column="82" />
+              <folding>
+                <element signature="e#34#54#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/baseAdmin.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+            <state relative-caret-position="187">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/admin/show_edit.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Form/UserType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -333,52 +80,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/admin/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="32" column="122" selection-start-line="32" selection-start-column="122" selection-end-line="32" selection-end-column="122" />
+            <state relative-caret-position="-255">
+              <caret selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/ReservationController.php">
+        <entry file="file://$PROJECT_DIR$/nice-admin-lite-master/nice-html/ltr/pages-profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+            <state relative-caret-position="983">
+              <caret line="84" column="46" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
               <folding>
-                <element signature="e#34#61#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Repository/ReservationRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="36" />
-              <folding>
-                <element signature="e#34#61#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Reservation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="140" column="31" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="31" />
-              <folding>
-                <element signature="e#30#78#0#PHP" expanded="true" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -388,12 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Salted Fried Chicken</find>
-      <find>Fried Potato w/ Garlic</find>
-      <find>18.50</find>
-      <find>Italian Sauce Mushroom</find>
-      <find>Delicious Menu</find>
-      <find>News</find>
       <find>BREAKFAST</find>
       <find>mages/menu_3</find>
       <find>Our Offer This Summer</find>
@@ -411,17 +119,24 @@
       <find>Reserve A Table</find>
       <find>starter page</find>
       <find>Sales Ratio</find>
-      <find>../../</find>
       <find>sale</find>
       <find>latest</find>
       <find>order</find>
       <find>Latest Sales</find>
       <find>$769.08</find>
       <find>35,658</find>
+      <find>pages-profile</find>
+      <find>app</find>
+      <find>user.</find>
+      <find>user_</find>
+      <find>../../</find>
+      <find>hannagover</find>
+      <find>task</find>
     </findStrings>
     <replaceStrings>
       <replace>created</replace>
       <replace>{{ asset('') }}</replace>
+      <replace>{{</replace>
       <replace>{{ asset('admin/') }}</replace>
     </replaceStrings>
   </component>
@@ -434,8 +149,6 @@
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/eatwell/index.html" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
-        <option value="$PROJECT_DIR$/src/Form/UserType.php" />
         <option value="$PROJECT_DIR$/src/Security/LoginAthAuthenticator.php" />
         <option value="$PROJECT_DIR$/templates/nav.html.twig" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
@@ -443,7 +156,6 @@
         <option value="$PROJECT_DIR$/templates/user/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/reservation/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Form/ReservationType.php" />
-        <option value="$PROJECT_DIR$/templates/baseUser.html.twig" />
         <option value="$PROJECT_DIR$/templates/home/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/reservation/_form.html.twig" />
         <option value="$PROJECT_DIR$/templates/security/login.html.twig" />
@@ -457,11 +169,15 @@
         <option value="$PROJECT_DIR$/src/Entity/Reservation.php" />
         <option value="$PROJECT_DIR$/src/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/Repository/UserRepositoryy.php" />
-        <option value="$PROJECT_DIR$/src/Controller/UserController.php" />
         <option value="$PROJECT_DIR$/src/Controller/ReservationController.php" />
         <option value="$PROJECT_DIR$/src/Controller/AdminController.php" />
         <option value="$PROJECT_DIR$/templates/admin/index.html.twig" />
+        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
+        <option value="$PROJECT_DIR$/templates/baseUser.html.twig" />
         <option value="$PROJECT_DIR$/templates/baseAdmin.html.twig" />
+        <option value="$PROJECT_DIR$/src/Form/UserType.php" />
+        <option value="$PROJECT_DIR$/src/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/templates/admin/show_edit.html.twig" />
       </list>
     </option>
   </component>
@@ -577,22 +293,7 @@
       <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
       <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
       <path value="$PROJECT_DIR$/vendor/core23/dompdf-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/templating" />
-      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
-      <path value="$PROJECT_DIR$/vendor/symfony/security-acl" />
-      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
-      <path value="$PROJECT_DIR$/vendor/knplabs/knp-menu" />
-      <path value="$PROJECT_DIR$/vendor/knplabs/knp-menu-bundle" />
-      <path value="$PROJECT_DIR$/vendor/sonata-project/exporter" />
-      <path value="$PROJECT_DIR$/vendor/sonata-project/doctrine-extensions" />
-      <path value="$PROJECT_DIR$/vendor/sonata-project/core-bundle" />
-      <path value="$PROJECT_DIR$/vendor/sonata-project/datagrid-bundle" />
-      <path value="$PROJECT_DIR$/vendor/sonata-project/doctrine-orm-admin-bundle" />
-      <path value="$PROJECT_DIR$/vendor/sonata-project/block-bundle" />
-      <path value="$PROJECT_DIR$/vendor/sonata-project/admin-bundle" />
-      <path value="$PROJECT_DIR$/vendor/sonata-project/cache" />
-      <path value="$PROJECT_DIR$/vendor/easycorp/easyadmin-bundle" />
-      <path value="$PROJECT_DIR$/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -607,8 +308,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -619,25 +318,20 @@
             <path>
               <item name="eat-first" type="b2602c69:ProjectViewProjectNode" />
               <item name="eat-first" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="nice-admin-lite-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eat-first" type="b2602c69:ProjectViewProjectNode" />
               <item name="eat-first" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="nice-admin-lite-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nice-html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eat-first" type="b2602c69:ProjectViewProjectNode" />
               <item name="eat-first" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eat-first" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eat-first" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="nice-admin-lite-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nice-html" type="462c0819:PsiDirectoryNode" />
+              <item name="ltr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eat-first" type="b2602c69:ProjectViewProjectNode" />
@@ -648,41 +342,20 @@
               <item name="eat-first" type="b2602c69:ProjectViewProjectNode" />
               <item name="eat-first" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eat-first" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eat-first" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eat-first" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eat-first" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eat-first" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eat-first" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eat-first" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eat-first" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567194252032" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567450454858" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -709,6 +382,12 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -722,17 +401,18 @@
       <workItem from="1565608156272" duration="7435000" />
       <workItem from="1565712427280" duration="824000" />
       <workItem from="1565801352153" duration="1282000" />
+      <workItem from="1567447391636" duration="3036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48588000" />
+    <option name="totallyTimeSpent" value="52315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2322239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -749,7 +429,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.66939443" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.062193125" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -837,20 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/UserType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/ReservationType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -899,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/baseUser.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="48" selection-start-line="48" selection-end-line="48" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/user/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -917,13 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -964,16 +616,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AdminReservationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="e#34#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AdminReservationController.php" />
     <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -991,39 +634,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/UserRepositoryy.php">
+    <entry file="file://$PROJECT_DIR$/src/Repository/UserRepositoryy.php" />
+    <entry file="file://$PROJECT_DIR$/src/Controller/ReservationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="36" column="6" lean-forward="true" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/UserRepositoryy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="228">
+          <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
           <folding>
-            <element signature="e#34#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="140" column="31" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="31" />
-          <folding>
-            <element signature="e#30#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <element signature="e#34#54#0#PHP" expanded="true" />
+            <element signature="e#34#61#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1040,24 +657,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Reservation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="228">
           <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ReservationController.php">
+    <entry file="file://$PROJECT_DIR$/config/packages/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
           <folding>
-            <element signature="e#34#61#0#PHP" expanded="true" />
+            <element signature="e#30#78#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/baseUser.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="46" column="63" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nice-admin-lite-master/nice-html/ltr/pages-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="983">
+          <caret line="84" column="46" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="259">
           <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
           <folding>
             <element signature="e#34#61#0#PHP" expanded="true" />
@@ -1065,17 +733,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/baseAdmin.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="32" column="122" selection-start-line="32" selection-start-column="122" selection-end-line="32" selection-end-column="122" />
+        <state relative-caret-position="187">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="104" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/baseAdmin.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Controller/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+        <state relative-caret-position="156">
+          <caret line="83" column="82" selection-start-line="83" selection-start-column="82" selection-end-line="83" selection-end-column="82" />
+          <folding>
+            <element signature="e#34#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/UserType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/show_edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
         </state>
       </provider>
     </entry>

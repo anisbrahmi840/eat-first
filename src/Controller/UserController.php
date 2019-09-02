@@ -61,8 +61,8 @@ class UserController extends AbstractController
         if($userIslogin->getId() != $user->getId()){
             return $this->redirectToRoute('home');
         }
-
         $reservations = $user->getReservations();
+
         return $this->render('user/show.html.twig', [
             'user' => $user,
             'reservations' => $reservations
@@ -80,7 +80,19 @@ class UserController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
             $this->getDoctrine()->getManager()->flush();
 
+            if($this->isGranted(['ROLE_SUPER_ADMIN'])){
+                return $this->redirectToRoute('user_edit', ['id' => $user->getId()]);
+            }
             return $this->redirectToRoute('user_index');
+        }
+
+
+        // test is super admin
+        if($this->isGranted(['ROLE_SUPER_ADMIN'])){
+            return $this->render('admin/show_edit.html.twig', [
+                'user' => $user,
+                'form' => $form->createView(),
+            ]);
         }
 
         return $this->render('user/edit.html.twig', [
