@@ -50,7 +50,7 @@
                 <!-- Logo -->
                 <!-- ============================================================== -->
                 <div class="navbar-brand">
-                    <a href="{{ path('home') }}" class="logo">
+                    <a href="{{ path('admin_home') }}" class="logo">
                         <!-- Logo icon -->
                         <b class="logo-icon">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
@@ -156,21 +156,9 @@
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="table-basic.html" aria-expanded="false">
-                            <i class="mdi mdi-border-none"></i>
-                            <span class="hide-menu">Table</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="icon-material.html" aria-expanded="false">
-                            <i class="mdi mdi-face"></i>
-                            <span class="hide-menu">Icon</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="starter-kit.html" aria-expanded="false">
-                            <i class="mdi mdi-file"></i>
-                            <span class="hide-menu">Blank</span>
+                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{ path('admin_showReservations') }}" aria-expanded="false">
+                            <i class="mdi mdi-file-document"></i>
+                            <span class="hide-menu">Reservations</span>
                         </a>
                     </li>
                     <li class="sidebar-item">

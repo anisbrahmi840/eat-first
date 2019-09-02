@@ -46,4 +46,15 @@ class AdminController extends AbstractController
             'users' => $userRepository->findAll(),
         ]);
     }
+
+    /**
+     * @Route("/reservations", name="admin_showReservations", methods={"GET"})
+     */
+    public function showReservation(): Response
+    {
+        $reservationRepository = $this->getDoctrine()->getRepository(Reservation::class);
+        return $this->render('admin/showreservations.html.twig', [
+            'reservations' => $reservationRepository->findAll(),
+        ]);
+    }
 }

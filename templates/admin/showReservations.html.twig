@@ -1,0 +1,65 @@
+{% extends 'baseAdmin.html.twig' %}
+
+{% block body %}
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Start Page Content -->
+        <!-- ============================================================== -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Table Reservations</h4>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class="thead-light">
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">User</th>
+                                <th scope="col">NbUser</th>
+                                <th scope="col">ResAt</th>
+                                <th scope="col">createdAt</th>
+                                <th scope="col">Message</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for reservation in reservations %}
+                                <tr>
+                                    <th scope="row">{{ reservation.id }}</th>
+                                    <td>{{ reservation.user.lastName }}</td>
+                                    <td>{{ reservation.NbUser }}</td>
+                                    <td>{{ reservation.resAt|date('d-m-Y') }}</td>
+                                    <td>{{ reservation.createdAt|date('d-m-Y') }}</td>
+                                    <td>{{ reservation.message }}</td>
+                                    <td class="row col-12">
+                                        <div class="col-6">
+                                            <form method="post" action="{{ path('reservation_delete', {'id': reservation.id}) }}" onsubmit="return confirm('Are you sure you want to delete this item?');">
+                                                <input type="hidden" name="_method" value="DELETE">
+                                                <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ reservation.id) }}">
+                                                <button class="btn btn-outline-danger">Delete</button>
+                                            </form>
+                                        </div>
+                                        <div class="col-6"><a href="{{ path('reservation_show', {id: reservation.id}) }}" class="btn btn-outline-info">Show</a></div>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End PAge Content -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Right sidebar -->
+        <!-- ============================================================== -->
+        <!-- .right-sidebar -->
+        <!-- ============================================================== -->
+        <!-- End Right sidebar -->
+        <!-- ============================================================== -->
+    </div>
+{% endblock %}

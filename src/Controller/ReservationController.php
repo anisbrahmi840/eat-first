@@ -19,15 +19,6 @@ use Dompdf\Options;
  */
 class ReservationController extends AbstractController
 {
-    /**
-     * @Route("/", name="reservation_index", methods={"GET"})
-     */
-    public function index(ReservationRepository $reservationRepository): Response
-    {
-        return $this->render('reservation/index.html.twig', [
-            'reservations' => $reservationRepository->findAll(),
-        ]);
-    }
 
     /**
      * @Route("/new", name="reservation_new", methods={"GET","POST"})
@@ -129,6 +120,11 @@ class ReservationController extends AbstractController
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->remove($reservation);
             $entityManager->flush();
+        }
+
+        // test is super admin
+        if($this->isGranted(['ROLE_SUPER_ADMIN'])){
+            return $this->redirectToRoute('admin_showUsers');
         }
 
         return $this->redirectToRoute('user_show',[
